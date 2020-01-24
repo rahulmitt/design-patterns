@@ -1,4 +1,4 @@
-package com.rahul.designpatterns.gof.creational.builder.pojo;
+package com.rahul.designpatterns.pojo;
 
 public class Address {
     private String houseNumber;

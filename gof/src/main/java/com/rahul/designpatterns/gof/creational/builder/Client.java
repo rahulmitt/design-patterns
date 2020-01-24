@@ -1,7 +1,7 @@
 package com.rahul.designpatterns.gof.creational.builder;
 
-import com.rahul.designpatterns.gof.creational.builder.pojo.Address;
-import com.rahul.designpatterns.gof.creational.builder.pojo.User;
+import com.rahul.designpatterns.pojo.Address;
+import com.rahul.designpatterns.pojo.User;
 
 import java.time.LocalDate;
 
@@ -9,13 +9,13 @@ public class Client {
 
     public static void main(String[] args) {
         User user = createUser();
-        UserDtoBuilder builder = new UserWebDtoBuilder();
-        UserDto dto = buildUserDto(builder, user);
+        UserDto dto = buildUserDto(user);
         System.out.println("Dto created: " + dto);
     }
 
-    private static UserDto buildUserDto(UserDtoBuilder builder, User user) {
-        return builder.firstName(user.getFirstName())
+    private static UserDto buildUserDto(User user) {
+        return UserDto.getBuilder()
+                .firstName(user.getFirstName())
                 .lastName(user.getLastName())
                 .address(user.getAddress())
                 .birthday(user.getBirthday())
