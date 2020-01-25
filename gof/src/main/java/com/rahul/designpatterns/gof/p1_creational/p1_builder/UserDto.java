@@ -1,4 +1,4 @@
-package com.rahul.designpatterns.gof.creational.builder;
+package com.rahul.designpatterns.gof.p1_creational.p1_builder;
 
 import com.rahul.designpatterns.pojo.Address;
 

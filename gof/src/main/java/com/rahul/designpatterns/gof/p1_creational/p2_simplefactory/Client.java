@@ -1,4 +1,4 @@
-package com.rahul.designpatterns.gof.creational.simplefactory;
+package com.rahul.designpatterns.gof.p1_creational.p2_simplefactory;
 
 import com.rahul.designpatterns.pojo.Vehicle;
 
