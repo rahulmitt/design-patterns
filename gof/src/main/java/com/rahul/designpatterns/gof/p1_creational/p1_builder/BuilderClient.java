@@ -5,7 +5,7 @@ import com.rahul.designpatterns.pojo.User;
 
 import java.time.LocalDate;
 
-public class Client {
+public class BuilderClient {
 
     public static void main(String[] args) {
         User user = createUser();
