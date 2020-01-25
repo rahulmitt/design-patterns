@@ -1,13 +1,12 @@
-package com.rahul.designpatterns.gof.p2_behavioral.p1_adapter.object_adapter;
+package com.rahul.designpatterns.gof.p2_structural.p1_adapter.class_adapter;
 
 public class ClassAdapterClient {
     public static void main(String[] args) {
-        Employee employee = new Employee();
-        populateEmployee(employee);
+        EmployeeClassAdapter twoWayAdapter = new EmployeeClassAdapter();
+        populateEmployee(twoWayAdapter);    // being used as Employee
 
-        EmployeeObjectAdapter objectAdapter = new EmployeeObjectAdapter(employee);
         BusinessCardDesigner designer = new BusinessCardDesigner();
-        String card = designer.designCard(objectAdapter);
+        String card = designer.designCard(twoWayAdapter);   // being used as Customer
         System.out.println(card);
     }
 

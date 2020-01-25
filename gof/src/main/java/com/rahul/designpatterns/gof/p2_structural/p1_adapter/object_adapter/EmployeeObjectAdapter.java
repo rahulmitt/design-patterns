@@ -1,4 +1,4 @@
-package com.rahul.designpatterns.gof.p2_behavioral.p1_adapter.object_adapter;
+package com.rahul.designpatterns.gof.p2_structural.p1_adapter.object_adapter;
 
 // Represents Object-Adapter - uses COMPOSITION to translate interface
 public class EmployeeObjectAdapter implements Customer {
