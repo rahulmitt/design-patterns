@@ -5,5 +5,6 @@ import com.rahulmitt.interviewpedia.dp.creational.abstractfactory.car.sports.Abs
 
 public interface CarAbstractFactory {
     AbstractSportsCar createSportsCar();
+
     AbstractEconomyCar createEconomyCar();
 }

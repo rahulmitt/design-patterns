@@ -3,9 +3,9 @@ package com.rahulmitt.interviewpedia.dp.creational.builder;
 import com.rahulmitt.interviewpedia.dp.creational.builder.address.Address;
 import com.rahulmitt.interviewpedia.dp.creational.builder.address.AddressBuilder;
 import com.rahulmitt.interviewpedia.dp.creational.builder.address.impl.AddressBuilderImpl;
-import com.rahulmitt.interviewpedia.dp.creational.builder.user.impl.UserBuilderImpl;
 import com.rahulmitt.interviewpedia.dp.creational.builder.user.User;
 import com.rahulmitt.interviewpedia.dp.creational.builder.user.UserBuilder;
+import com.rahulmitt.interviewpedia.dp.creational.builder.user.impl.UserBuilderImpl;
 
 public class BuilderMain {
     static AddressBuilder addressBuilder = new AddressBuilderImpl();
