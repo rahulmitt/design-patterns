@@ -1,6 +1,7 @@
 package com.rahulmitt.interviewpedia.dp.structural.decorator.impl;
 
 public class ConcreteDecoratorA extends Decorator {
+
     String addedVariable;
 
     @Override
