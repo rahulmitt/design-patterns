@@ -1,4 +1,4 @@
-package com.rahulmitt.interviewpedia.dp.structural.facade;
+package com.rahulmitt.interviewpedia.dp.structural.facade.subsysN;
 
 public class SubSystemN {
     public void checkBalances() {

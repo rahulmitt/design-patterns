@@ -1,4 +1,4 @@
-package com.rahulmitt.interviewpedia.dp.structural.facade;
+package com.rahulmitt.interviewpedia.dp.structural.facade.subsys1;
 
 public class SubSystem1 {
     public void getCustomer() {
